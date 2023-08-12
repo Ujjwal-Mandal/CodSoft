@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 10vh;
+    background-color: #2d28c6;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navlogo img {
+    margin: 15px 25px;
+}
+
+.navlist {
+    margin: 24px;
+}
+
+.navlist ul {
+    list-style: none;
+    display: flex;
+}
+
+.navlist ul li a {
+    margin: 0px 10px;
+    color: #fdfbfb;
+    text-decoration: none;
+}
+
+#searchbar {
+    height: 35px;
+    width: 350px;
+    margin: 25px 100px;
+    padding: 0px 0px 0px 25px;
+    border-radius: 10px;
+}
+
+.loginbtn {
+    height: 35px;
+    width: 100px;
+    margin: 26px;
+    float: right;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #2d28c6;
+}
+
+.loginbtn a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 31px;
+}
+
+.createaccount {
+    height: 35px;
+    margin: 26px;
+    float: right;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.createaccount a {
+    text-decoration: none;
+    color: #2d28c6;
+    padding: 8px 15px;
+}
+
+main {
+    min-height: calc(100vh - 10vh - 20vh);
+}
+
+.slidercontainer {
+    width: 900px;
+    height: 550px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.headercard {
+    background-color: #2d28c6;
+    text-align: center;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    margin: 100px auto;
+    width: 275px;
+    border: 3px dashed red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.caedproduct {
+    font-size: 20px;
+    color: black;
+}
+
+.buythis {
+    height: 35px;
+    width: 100px;
+    margin: 26px 87.5px;
+    float: right;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #2d28c6;
+}
+
+.buythis a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 20vh;
+    background-color: #2d3ace;
+}
+
+.about {
+    margin: 7px 15px;
+}
+
+.abouthead {
+    padding: 2px 5px;
+    color: #fcf9f9;
+}
+
+.abouttext {
+    padding: 2px 5px;
+    color: #dbcaca;
+}
+
+.customerfeedback {
+    margin: 15px 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.customerfeedbackhead {
+    padding: 2px 5px;
+    color: #fcf9f9;
+}
+
+.customerfeedbacktext {
+    padding: 2px 5px;
+    color: #dbcaca;
+}

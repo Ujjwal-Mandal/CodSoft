@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.headercard {
+    background-color: #2d28c6;
+    text-align: center;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    margin: 100px auto;
+    width: 275px;
+    border: 3px dashed red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.caedproduct {
+    font-size: 20px;
+    color: black;
+}
+
+.buythis {
+    height: 35px;
+    width: 100px;
+    margin: 26px 87.5px;
+    float: right;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #2d28c6;
+}
+
+.buythis a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.backtohome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    height: 35px;
+    width: 100px;
+    margin: 26px 87.5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #2d28c6;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+}
